@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+/**** top nav *****/
+.top-nav{
+    background: #7303c1;
+    color: #fff;
+    height: 100%;
+}
+.top-nav-content{
+    padding-top: .5rem;
+    font-family: "Montserrat", sans-serif;
+}
+.top-nav span{
+    color: #b7b7b7;
+}
+/**** navbar *****/
+.navbar{
+    background-color: #ffc107;
+}
+.nav-item .nav-link {
+    color: #fff;
+    padding: .8rem 2rem;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+.nav-item .nav-link:hover {
+ color: hsl( 206 , 92% , 60% );
+}
+.nav-item {
+    margin: 0 .7rem;
+}
+/**** section 1 *****/
+.section-1{
+   background: url("../images/Family-Banner.jpg") rgba(0, 0, 0, 0.5) no-repeat center;
+   width: 100%;
+   background-size: cover;
+   height: 100%;
+   background-size: cover;
+   background-blend-mode: multiply;
+}
+.section-1 .row{
+    padding: 12rem 1rem;
+}
+.section1-content{
+    color: #fff;
+    width: 100%;
+}
+.section1-content h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.section1-content h6{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.section1-btn {
+    margin-top: 3rem;
+}
+.section1-btn a{
+    color: #fff;
+   background-color: #7303c1;
+   padding: 1rem 2.5rem;
+   border: 2px solid #fff;
+   border-radius: 50px;
+   transition: .4s;
+}
+.section1-btn a:hover{
+    background: #985ab7;
+    border-color: #985ab7;
+
+}
+/**** section 2 *****/
+.section2-content{
+  margin-bottom: 1rem;
+}
+.section2-content h1{
+  font-size: 70px;
+  padding-bottom: 1.5rem;
+}
+.section2-content h3, h6{
+    font-family: "Oswald", sans-serif;
+}
+.section2-content h6{
+color: rgb(128, 128, 128);
+}
+.section2-content h3{
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.custom-border::before{
+  content: "";
+  position: absolute;
+  background: #ffc107;
+  width: 4rem;
+  height: 5px;
+  bottom: 0;
+  text-align: center;
+  
+}
+/**** section 3 *****/
+.section-3 p{
+    font-family: "Arimo", sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+}
+/**** section 4 *****/
+.section-4 {
+    background: url("../images/vehicles-bkg-2.jpg") no-repeat fixed  0 0 / cover;
+    width: 100%;
+    background-position: center ;
+}
+.section4-content{
+    padding: 5.5rem .1rem;
+}
+.section4-text h1{
+    color: hsl( 206 , 92% , 60% );
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+.section4-text h4 strong{
+    font-size: 32px;
+    text-decoration: underline;
+}
+.section4-text h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.section4-text a{
+    padding: .6rem 1rem;
+    background: #7303c1;
+    color: #fff;
+    border-radius: .375rem;
+    transition: .3s;
+}
+.section4-text a:hover{
+    background-color: #383737;
+}
+/**** section 5 *****/
+.section-5 h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(3, 13, 38);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+.section-5 .custom-border{
+    text-align: center;
+}
+.section5-top p{
+    font-style: italic;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5-img img{
+    height: 100%;
+}
+.section5-text h3{
+    font-size: 24px;
+    color: rgb(3, 13, 38);
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;   
+}
+.section5-text p{
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+}
+/**** section 6 *****/
+.section-6 {
+    background: url("../images/counter2.jpg") fixed no-repeat center;
+    width: 100%;
+    background-size: cover;
+}
+.section6-content{
+    padding: 3.5rem .1rem;
+}
+.section6-content h2{
+    font-size: 40px;
+}
+.section6-content h1{
+    font-size: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    
+
+}
+.section6-content h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl( 206 , 92% , 60% );
+}
+/**** section 7 *****/
+.section7-top h1{
+    font-family: "Oswald", sans-serif;
+    color:rgb(3, 13, 38);
+}
+.section-7 .section7-content{
+ padding: 1.5rem 1.5rem;
+}
+.section7-content p{
+   font-family: "Montserrat", sans-serif;
+   color: rgb(90, 90, 90);
+
+}
+.section7-content h4{
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+.section7-content a{
+    color: hsl( 206 , 92% , 60% );
+    transition: .3s; 
+}
+.section7-content a:hover{
+    color: hsl(206, 91%, 39%);
+}
+/**** section 8 *****/
+.section-8 .col-md-3{
+    background: url("../images/installer-1.jpg") no-repeat;
+}
+.section8-content .section8-img{
+    float: left;
+}
+.section8-text h3{
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+  
+}
+.section8-text p{
+    margin-bottom: 0;
+}
+.section8-content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.section8-text {
+    margin-left: 6rem !important;
+}
+.section8-content a{
+    padding: 1rem 2.5rem;
+    background: #7303c1;
+    border-radius: .375rem;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+/**** section 9 *****/
+.section-9{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.section-9 .item{
+ border: 1px solid #e2e0e0;
+}
+/**** footer *****/
+footer.footer{
+    padding-top: 1rem;
+}
+footer .footer-img img{
+  float: left;
+}
+.footer p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+footer h3{
+    padding-top: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+.footer ul li {
+    padding: .5rem;
+}
+.footer ul li a{
+  color: #fff;
+}
+.footer span{
+    color: hsl( 206 , 92% , 60% );
+}
+.footer span:hover{
+    color: hsl(206, 91%, 39%);
+}
+.footer .footer-bottom a{
+    margin: .5rem 1rem;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.footer .footer-bottom i{
+    font-size: 1.2rem;
+}
+.footer i:hover{
+    color: hsl(206, 91%, 39%);
+}
+
+@media screen and (max-width: 1200px){
+    .section6-content h1{
+        font-size: 2rem !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .section-1 h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .top-nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-1{
+        height: 100vh !important;
+    }
+    .section-1 .row{
+        padding: 2rem !important;
+    }
+    .section-1 h1{
+        font-size: 40px;
+    }
+
+    .section-1 .section1-btn{
+        justify-content: center;
+    }
+    .section-1 .section1-btn .ms-3{
+        margin-left: 0 !important;
+        
+    }
+} 
